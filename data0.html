@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script defer type="module" src="app.js"></script>
+    <title>Formulario 01</title>
+</head>
+    <body>
+        <div class="container">
+            <form id="frmData">
+                <div class="row">
+                    <div class="col-3">
+                        <label for="nombreContacto" class="form-label">Nombre Contacto</label>
+                        <input type="text" class="form-control" id="nombre" name="nombre">
+                    </div>
+                </div>
+                <a href="#" class="btn btn-success mt-3" id="btnGuardar">Ver Item 01</a>
+            </form>
+            <form id="frmDataV">
+                <div class="row">
+                    <div class="col-3">
+                        <label for="nombreContacto" class="form-label">Apellido Contacto</label>
+                        <input type="text" class="form-control" id="apellido" name="nombre">
+                    </div>
+                    <div class="col-3">
+                        <label for="apellido" class="form-label">Apellido Contacto</label>
+                        <input type="text" class="form-control" id="apellido" name="apellido">
+                    </div>
+                </div>
+                <a href="#" class="btn btn-danger mt-3" id="btnVer">Ver Item Ver 02</a>
+            </form>
+            <div class="mt-3" id="viewData"></div>
+        </div>       
+    </body>
+</html>
